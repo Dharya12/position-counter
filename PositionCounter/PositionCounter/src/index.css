@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #f9f7fa;
+}
+
+.button{
+  @apply bg-blue-500 text-white rounded px-4 py-2 gap-1 hover:bg-blue-600;
+}
+
+.card{
+  @apply w-[220px] border rounded-xl bg-white h-[275px];
+}
+.avatar{
+  @apply rounded-full w-10 h-10 bg-gray-200;
+}
+.empty{
+    @apply flex items-center justify-center m-auto h-[65vh] w-[300px];
+}
+.siblingDropdownButton{
+  @apply ml-2 text-sm relative border rounded-[4px] flex items-center justify-center;
+}
+input[type=checkbox] {
+  transform: scale(1.3);
+}
